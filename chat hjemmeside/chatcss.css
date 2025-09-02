@@ -1,0 +1,38 @@
+h1 {
+    font-size: 40px;
+    background-color: floralwhite;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+input {
+    color: black;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    border:  2px;
+    border-style: solid;
+}
+
+p {
+    text-align: center;
+    margin: 300px;
+}
+
+.move {
+  position: relative;               
+  animation: slide 5s infinite; 
+}
+
+@keyframes slide {
+   0%   { transform: translate(0, 0); }
+  20%  { transform: translate(150px, -50px); }
+  40%  { transform: translate(-100px, 100px); }
+  60%  { transform: translate(200px, 150px); }
+  80%  { transform: translate(-10000px, -100px); }
+  100% { transform: translate(0, 0); } 
+}
